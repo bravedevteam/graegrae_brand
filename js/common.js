@@ -1,11 +1,11 @@
 $(function(){
-  $(window).scroll(function(){
-    var _pos = $(window).scrollTop();
+  $(".moGnb").click(function(){
+    $("#header").addClass("is--open");
+    $("#dim").show();
+  });
 
-    if(0 < _pos){
-      $("#header").addClass("is--fixed");
-    }else{
-      $("#header").removeClass("is--fixed");
-    }
+  $("#gnb .close").click(function(){
+    $("#header").removeClass("is--open");
+    $("#dim").hide();
   });
 });
