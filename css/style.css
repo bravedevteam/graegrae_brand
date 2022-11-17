@@ -217,7 +217,7 @@ input[type="radio"]:checked+label:after { background:#021343; }
 
 #footer { padding:60px 0; background:#000; }
 #footer h1 { font-size:22px; font-family:"Poppins"; color:#fff; font-weight:700; }
-#footer .address { margin-top:20px; font-size:15px; color:rgba(255,255,255,.6); font-style:normal; }
+#footer .address { margin-top:20px; font-size:15px; color:rgba(255,255,255,.6); font-style:normal; line-height:25px; }
 #footer .copyright { margin-top:28px; font-family:"Poppins"; font-size:13px; color:rgba(255,255,255,.6); }
 #footer .copyright strong { font-size:14px; font-weight:700; color:rgba(255,255,255,.7); }
 #footer .link { position:absolute; right:0; bottom:0; }
@@ -373,7 +373,7 @@ input[type="radio"]:checked+label:after { background:#021343; }
 	
 	#footer { padding:42px 16px; }
 	#footer h1 { font-size:20px; }
-	#footer .address { margin-top:25px; font-size:13px; line-height:25px; }
+	#footer .address { margin-top:25px; font-size:13px; }
 	#footer .copyright { margin-top:40px; }
 	#footer .link { margin-top:45px; position:relative; }
 	#footer .link a { margin-left:0; margin-right:30px; }
