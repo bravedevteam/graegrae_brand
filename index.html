@@ -139,33 +139,35 @@
             <h2>NFT PROJECT</h2>
             <h5>GRAEGRAE를 이용해 만들어진<br class="mo" /> NFT프로젝트를 소개합니다.</h5>
           </div>
-          <ul>
-            <li>
-              <div class="thumb"><img src="./images/imgProject1.png" /></div>
-              <div class="title">LEMONG X BAYC</div>
-              <div class="name">by 경남제약스퀘어</div>
-            </li>
-            <li>
-              <div class="thumb"><img src="./images/imgProject2.png" /></div>
-              <div class="title">UNTITLED WAVE</div>
-              <div class="name">by The five collection</div>
-            </li>
-            <li>
-              <div class="thumb"><img src="./images/imgProject3.png" /></div>
-              <div class="title">FOOTAGE</div>
-              <div class="name">by SPORTIUM</div>
-            </li>
-            <li>
-              <div class="thumb"><img src="./images/imgProject4.png" /></div>
-              <div class="title">PMAN</div>
-              <div class="name">by 크립토페인터스</div>
-            </li>
-            <li>
-              <div class="thumb"><img src="./images/imgProject5.png" /></div>
-              <div class="title">SIDESCAPES</div>
-              <div class="name">by 경남제약스퀘어</div>
-            </li>
-          </ul>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="thumb"><img src="./images/imgProject1.png" /></div>
+                <div class="title">LEMONG X BAYC</div>
+                <div class="name">by 경남제약스퀘어</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="thumb"><img src="./images/imgProject2.png" /></div>
+                <div class="title">UNTITLED WAVE</div>
+                <div class="name">by The five collection</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="thumb"><img src="./images/imgProject3.png" /></div>
+                <div class="title">FOOTAGE</div>
+                <div class="name">by SPORTIUM</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="thumb"><img src="./images/imgProject4.png" /></div>
+                <div class="title">PMAN</div>
+                <div class="name">by 크립토페인터스</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="thumb"><img src="./images/imgProject5.png" /></div>
+                <div class="title">SIDESCAPES</div>
+                <div class="name">by 경남제약스퀘어</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -524,6 +526,11 @@
         nextEl: '.slideComing .swiper-button-next',
         prevEl: '.slideComing .swiper-button-prev',
       },
+    });
+
+    var comingSwiper = new Swiper('.boxProject .swiper-container', {
+      slidesPerView: "auto",
+      spaceBetween: 0,
     });
 
     $(".boxQna li .cont").slideUp(0);

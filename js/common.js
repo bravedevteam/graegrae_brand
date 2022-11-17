@@ -5,7 +5,15 @@ $(function(){
   });
 
   $("#gnb .close").click(function(){
+    gnbClose();
+  });
+
+  $("#dim").click(function(){
+    gnbClose();
+  });
+
+  function gnbClose(){
     $("#header").removeClass("is--open");
     $("#dim").hide();
-  });
+  }
 });
