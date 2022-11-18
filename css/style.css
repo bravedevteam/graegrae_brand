@@ -280,7 +280,7 @@ input[type="radio"]:checked+label:after { background:#021343; }
 	.section.section3 { padding:80px 0; }
 	.section.section3 .titleArea { padding:0 16px; }
 	.section.section3 .titleArea h2 { margin-top:10px; font-size:31px; line-height:48px; }
-	.section.section3 .titleArea p { margin-top:23px; padding-right:92px; }
+	.section.section3 .titleArea p { min-height:230px; margin-top:23px; padding-right:92px; }
 	.section.section4 { padding:55px 16px 75px; }
 
 
@@ -317,7 +317,8 @@ input[type="radio"]:checked+label:after { background:#021343; }
 	.boxProject .swiper-slide .title { margin-top:8px; font-size:16px; }
 	.boxProject .swiper-slide .name { font-size:14px; }
 
-	.slideCampaignThumb { margin-top:48px; padding:0 16px; }
+	.slideCampaignThumb { margin-top:30px; padding:0 16px; }
+	.slideCampaignThumb .swiper-slide { width:130px; height:40px; line-height:40px; font-size:14px; }
 
 	.slideCampaign { margin:34px 0 0; padding-bottom:90px; }
 	.slideCampaign .swiper-slide .cont { margin-top:20px; padding:0 16px; }
@@ -333,7 +334,7 @@ input[type="radio"]:checked+label:after { background:#021343; }
 	.boxCharacter .img { width:auto; }
 	.boxCharacter .name { top:auto; bottom:-15px; right:10px; font-size:10px; }
 	
-	.campaignBlock { padding:0 16px; }
+	.campaignBlock { padding:0 16px; margin-top:0; }
 	.campaignBlock .item { float:none; padding:35px 25px 41px; }
 	.campaignBlock .item+.item { margin-top:10px; }
 	.campaignBlock .item>a { margin-top:35px; }
