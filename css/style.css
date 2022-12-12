@@ -274,9 +274,9 @@ input[type="radio"]:checked+label:after { background:#021343; }
 	#header.is--open #gnb { right:0; }	
 
 	.moGnb { width:58px; height:56px; display:block; position:absolute; right:0px; top:0px; background:url('../images/iconMenu.png') center center no-repeat; background-size:14px auto; font-size:0; text-indent:-99999px; }
-
-	.mainVisual { padding-bottom:20px; }
-	.mainVisual .swiper-wrapper { height:594px; }
+	
+	.mainVisual .swiper-wrapper { height:704px; }
+	.mainVisual .swiper-slide { height:594px; }
 	.mainVisual .swiper-slide .inner { width:auto; height:594px; padding-top:86px; text-align:center; }
 	.mainVisual .swiper-slide .inner:after { left:0; background-size:360px auto; background-position:center bottom; }
 	.mainVisual .swiper-slide.slide1 .inner:after { width:100%; height:100%; margin-left:0; background-image:url('../images/imgVisual1_mo.png'); }
@@ -286,11 +286,9 @@ input[type="radio"]:checked+label:after { background:#021343; }
 	.mainVisual .swiper-slide .txt2 { font-size:40px; line-height:50px; }
 	.mainVisual .swiper-slide .txt2 span.block { height:43px; padding:0 12px; }
 	.mainVisual .swiper-slide.slide3 .txt2 { margin-top:30px; }
-	.mainVisual .swiper-slide .btnArea { margin-top:28px; display:inline-block; }
-	.mainVisual .swiper-slide.slide2 .btnArea { margin-top:28px; }
-	.mainVisual .swiper-slide.slide3 .btnArea { margin-top:52px; }
-	.mainVisual .swiper-slide .btnArea .btn { width:112px; height:42px; font-size:14px; line-height:40px; }
-	.mainVisual .swiper-slide .btnArea .btn.btn--active { width:178px; }
+	.mainVisual .swiper-slide .btnArea { width:calc(100% - 32px); position:absolute; left:50%; bottom:-74px; transform:translateX(-50%); }
+	.mainVisual .swiper-slide .btnArea .btn { width:100%; height:62px; border-radius:7px; font-size:16px; line-height:60px; }
+	.mainVisual .swiper-slide .btnArea .btn.btn--active { width:100%; }
 	.mainVisual .swiper-slide .btnArea .btn.btn--active:after { width:12px; height:8px; margin-left:4px; }
 	.mainVisual .swiper-slide .btnArea .btn+.btn { margin-left:6px; }
 	.mainVisual .swiper-pagination { height:4px; display:block; bottom:0; }	
@@ -333,17 +331,21 @@ input[type="radio"]:checked+label:after { background:#021343; }
 	.listInfomation ul li .img { width:auto; margin-top:14px; }
 
 	.boxMarketing { padding:60px 0 0; }
+	.boxMarketing .titleArea { margin-bottom:25px; text-align:center; }
 	.boxMarketing .contMarketing { padding:36px 30px 26px; }
 	.boxMarketing .contMarketing:before { width:58px; height:58px; left:30px; top:36px; }
 	.boxMarketing .contMarketing .title { padding-left:70px; font-size:20px; }
 	.boxMarketing .contMarketing .cont { font-size:16px; line-height:1.665; }
 
 	.boxWhyGrae { padding-bottom:50px; }
-	.boxWhyGrae .contWhyGrae { margin-top:0; }
+	.boxWhyGrae .titleArea { text-align:center; }
+	.boxWhyGrae .contWhyGrae { text-align:center; margin-top:0; }
+	.boxWhyGrae .contWhyGrae ul { padding:20px 0; }
 	.boxWhyGrae .contWhyGrae ul li { height:auto; padding:20px 0; display:block; overflow:hidden; }
-	.boxWhyGrae .contWhyGrae ul li .num { float:left; margin-right:0; }
-	.boxWhyGrae .contWhyGrae ul li .title { margin-left:80px; margin-right:0; }
-	.boxWhyGrae .contWhyGrae ul li .cont { margin-top:23px; clear:both; }
+	.boxWhyGrae .contWhyGrae ul li+li { border-top:0; }
+	.boxWhyGrae .contWhyGrae ul li .num { width:auto; margin-right:0; text-decoration:underline; font-size:25px; font-weight:700; }
+	.boxWhyGrae .contWhyGrae ul li .title { width:auto; margin:0; font-size:22px; }
+	.boxWhyGrae .contWhyGrae ul li .cont { margin-top:16px; clear:both; font-size:16px; }
 
 	.boxProject { padding:40px 0 30px; margin-bottom:50px; }
 	.boxProject .titleArea { margin-bottom:30px; }
