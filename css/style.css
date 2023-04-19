@@ -50,7 +50,7 @@ input[type="radio"]:checked+label:after { background:#021343; }
 .c-title { font-size:50px; font-weight:700; color:#000; text-align:center; }
 
 #header { width:100%; height:88px; position:absolute; left:0; top:0; background:#fff; z-index:11; }
-#header h1 { width:200px; height:40px; position:absolute; left:46px; top:50%; background:url('../images/logo.png') center center no-repeat; background-size:100% auto; transform:translateY(-50%); font-size:0; text-indent:-999999px; }
+#header h1 { width:320px; height:40px; position:absolute; left:46px; top:50%; background:url('../images/logo.png') center center no-repeat; background-size:100% auto; transform:translateY(-50%); font-size:0; text-indent:-999999px; }
 
 #gnb { text-align:center; }
 #gnb ul { display:inline-block; overflow:hidden; }
@@ -258,7 +258,7 @@ input[type="radio"]:checked+label:after { background:#021343; }
 	.c-title { font-size:27px; }
 
 	#header { height:64px; }
-	#header h1 { width:140px; height:31px; left:16px; background-image:url('../images/logo_mo.png'); }
+	#header h1 { width:180px; height:31px; left:16px; background-image:url('../images/logo_mo.png'); }
 	#header.is--open:before { content:''; width:100%; height:100%; position:absolute; left:0; top:0; background:rgba(0,0,0,.8); }
 
 	#gnb { width:270px; height:100%; padding:116px 40px; position:fixed; right:-100%; top:0; background:#0020d1; transition:all .3s; z-index:20; text-align:left; box-shadow: -6px 0 13px 0 rgba(0, 0, 0, 0.34); }
